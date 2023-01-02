@@ -1,0 +1,50 @@
+problem 1:
+	100,00,00,000
+	9999999,89,89,797
+
+	crore = 10^7
+	lakh = 10^5
+	thousand = 10^3
+	hundred = 10^2
+	amount_in_words(99) + crore + amount_in_words(89,89,797)
+	amount_in_words(99) + crore + amount_in_words(89) + lakh + amount_in_words(89) + thousand + amount_in_words(7) + hundred + amount_in_words(97)
+
+
+************************************************************************
+problem 2:
+	data = [
+	"name,age,gender,salary"
+	"hairsh,20,male,30000"
+	]
+
+	name    age   gender   salary
+	harish  20    male     30000
+
+*************************************************************************
+user data: {
+	usename: string
+	password: string
+}
+
+welcome page
+actions:
+1. registration
+2. login
+3. exit
+
+
+1.
+enter username:(validate username-> lenghth, certain chars, duplicate)
+enter password:(validate on min length)
+press enter messge
+
+2. login
+	username:
+	password:
+	enter to login:
+
+	user successfully logged in.
+	user token
+
+3. exit -> exit
+
